@@ -1,0 +1,31 @@
+body{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    position: relative;
+}
+.div-content {
+    margin-top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+
+.to-hover-1:hover {
+   transform: scale(120%,120%);
+}
+
+.to-hover-2:hover {
+    transform: rotate(360deg);
+}
+
+
+
+@media print {
+    .toHide {
+        display: none;
+    }
+}
+
